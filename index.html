@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><h1>musify</h1></a>
+
+        <!-- <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">sign up</a></li>
+        </ul> -->
+
+        <form id="form">
+            <input type="search"
+                   id="search"
+                   placeholder="search"
+                   class="search"
+                   />
+        </form>
+    </nav>
+
+    <div class="section">
+
+        <div class="container">
+    
+            <div class="songList" >
+                <h2 id="heading">use search bar to find your favourite tracks</h2>
+                <!-- <button class="list" id="Anime">Anime</button>
+                <button class="list">Bollywood</button>
+                <button class="list">English</button>
+                <button class="list">Party</button>
+                <button class="list">5</button>
+                <button class="list">6</button> -->
+                <main>
+
+                    <table id="songList">
+                       <!--<tr>
+                           <td>${i+1}</td>
+                           <td>${e.name}</td>
+                           <td>${e.duration}</td>
+                           <td><button classs="btn" id="${e.id}"><i class="fa-solid fa-play"></i></button></td> 
+                       </tr>-->
+                       <!-- <td>  <img src="${e.}" alt=""></td> -->
+                   </table> 
+                </main>
+             
+                
+            </div>
+        </div>
+
+        <div class="bg-img">
+            
+        </div>
+    </div>
+    <div class="player">
+        <input id="progressBar"type="range" value="0" min="0" max="100"style="width: 80rem;">
+        <div class="controls">
+            <br>
+           <span id="currentSong"style="color:white; margin-left:-32rem">now playing : name</span><br>
+
+            <button id="play"><i class=""><<</i></button>
+            <button id="masterplay" class="fa-solid fa-play"></button>
+            <button id="Next"><i class="">>></i></button>
+
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/99890147e6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
